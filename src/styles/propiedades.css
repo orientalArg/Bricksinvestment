@@ -1,0 +1,94 @@
+.contenido {padding: 1em;}
+.contenedor-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.tarjeta {
+    border-radius: 5px;
+    max-width: 400px;
+    text-transform: capitalize;
+    background-color: rgb(171, 141, 209);
+}
+.tarjeta h4 {
+    color: #fff;
+    margin: 2em;
+    margin-bottom: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.tarjeta img {
+    width: 100%;
+    height: auto;
+}
+.tarjeta table {
+    width: 100%;
+}
+.tarjeta td {
+    width: 50%;
+    font-size: .8em;
+    color: #454545;
+    padding: 3.3%;
+    margin: 2px;
+    text-align: center;
+    background: #ededed;
+}
+.tarjeta .cuartos {
+    color: orangered;
+}
+.tarjeta .tipo {
+    text-transform: uppercase;
+}
+.tarjeta button {
+    color: #fff;
+    width: 150px;
+    padding: 1em;
+    border: none;
+    margin: auto;
+    display: block;
+    margin: 1em auto;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(255, 124, 92);
+}
+.tarjeta button:focus {
+    transform: translate(1px, 1px);
+}
+.tarjeta .resultado {
+    padding: 1em 0;
+    background-color: #ededed;
+    border-right: solid 2px rgb(171, 141, 209);
+    border-left: solid 2px rgb(171, 141, 209);
+}
+.tarjeta .resultado .ingresos {
+    text-transform: none;
+    color: rgb(0, 209, 28);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    top: 0;
+}
+.modal div {
+    width: 50%;
+}

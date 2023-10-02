@@ -20,7 +20,7 @@ function Header() {
             <nav className="flex">
                 <button onClick={ hide }>X</button>
                 <a href="/propiedades" className="link">Propiedades</a>
-                <a href="/#" className="link">Oportunidades</a>
+                <a href="/#oportunidades" className="link">Oportunidades</a>
                 <a href="/nosotros" className="link">Sobre Nosotros</a>
                 <a href="/#propiedades" className="link">Como Funciona</a>
             </nav>

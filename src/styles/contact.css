@@ -1,0 +1,24 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+h1,h2,h3{text-transform: uppercase;}
+h1 {font-size: 3.5em;}
+section a,section h1,section h2 {margin: 0;}
+section {
+    display: flex;}
+section div {
+    width: 50%;
+    padding: 6em 3em;
+}
+section div img {width: 300px;margin-top: 2em;}
+section .left {text-align: right;}
+section .right {text-align: left;}
+section .right h1 {color:#9881b9;margin-bottom: 1em;}
+section .right h2,h3 {color:#303030;margin: 1em 0 .3em 0;}
+section .right p,.right h3 {color:#5a4c6d;}
+@media (max-width: 800px) {
+    section {flex-direction: column;height: auto;}
+    section div {width: min-content;margin: 0 auto;}
+    section .right,section .left {text-align: left;}
+    section p {min-width: 300px;}
+}

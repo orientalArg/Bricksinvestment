@@ -1,0 +1,23 @@
+.nopage {
+    padding: 4em 0;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+}
+.nopage .gif img {
+    max-width: 400px;
+    transform: rotatey(180deg);
+}
+.nopage h2 {
+    margin: 1em 0;
+}
+.nopage nav div a { margin: 1em; }
+.nopage nav div img {
+    height: .9em;
+    margin: 0 .5em;
+}
+.nopage .title {
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: dotted underline rgb(113, 196, 224);
+}
